@@ -587,9 +587,9 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     tip_good_idea: "想到一个好主意的最佳方法是想到一堆主意。 - 莱纳斯·卡尔·鲍林"
     tip_programming_not_about_computers: "计算机科学就是有关计算机的，正如天文学就是有关望远镜的。 - 艾兹格·迪杰斯特拉"
     tip_mulan: "相信你能行，你就能做到。 - 迪士尼《花木兰》"
-#    project_complete: "Project Complete!"
-#    share_this_project: "Share this project with friends or family:"
-#    ready_to_share: "Ready to publish your project?"
+    project_complete: "任务完成!"
+    share_this_project: "快和你的朋友或者家人分享你的方案吧:)"
+    ready_to_share: "准备好分享你的方案了吗?"
 #    click_publish: "Click \"Publish\" to make it appear in the class gallery, then check out what your classmates built! You can come back and continue to work on this project. Any further changes will automatically be saved and shared with your classmates."
 #    already_published_prefix: "Your changes have been published to the class gallery."
 #    already_published_suffix: "Keep experimenting and making this project even better, or see what the rest of your class has built! Your changes will automatically be saved and shared with your classmates."
@@ -615,13 +615,13 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     play: "开始关卡"
     play_more_codecombat: "玩更多的 CodeCombat 关卡"
     default_student_instructions: "单击控制英雄，并取得胜利！"
-#    goal_survive: "Survive."
+    goal_survive: "活下来."
 #    goal_survive_time: "Survive for __seconds__ seconds."
-#    goal_defeat: "Defeat all enemies."
-#    goal_defeat_amount: "Defeat __amount__ enemies."
-#    goal_move: "Move to all the red X marks."
-#    goal_collect: "Collect all the items."
-#    goal_collect_amount: "Collect __amount__ items."
+    goal_defeat: "打败所有的敌人."
+    goal_defeat_amount: "打败 __个__ 敌人."
+    goal_move: "移动到所有的红色X标记处."
+    goal_collect: "收集所有的物品."
+    goal_collect_amount: "收集 __个__ 物品."
 
   game_menu:
     inventory_tab: "道具箱"
@@ -653,8 +653,8 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     difficulty: "难度"
     gold_collected: "收集的金币"
 #    survival_time: "Survived"
-#    defeated: "Enemies Defeated"
-#    code_length: "Lines of Code"
+    defeated: "敌人被打倒了"
+    code_length: "代码的行数"
 
   inventory:
     equipped_item: "已装备"
@@ -682,11 +682,11 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     price: "x{{gems}} / 月"
 #    buy_premium: "Buy Premium"
     purchase: "购买"
-#    purchased: "Purchased"
+    purchased: "已购买"
 
-#  earn_gems:
-#    prompt_title: "Not Enough Gems"
-#    prompt_body: "Keep playing to earn more!"
+  earn_gems:
+    prompt_title: "没有足够的宝石"
+    prompt_body: "继续玩,赚取更多宝石!"
 
   subscribe:
     best_deal: "最佳优惠!"
@@ -817,7 +817,7 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
   premium_features:
     get_premium: "获取<br>CodeCombat<br>高级订阅" # Fit into the banner on the /features page
     master_coder: "通过订阅成为编程高手！"
-#    paypal_redirect: "You will be redirected to PayPal to complete the subscription process."
+    paypal_redirect: "你将转到PayPal来完成订阅过程."
     subscribe_now: "现在订阅"
     hero_blurb_1: "订阅后可使用 __premiumHeroesCount__ 个超级英雄，利用Okar Stompfoot不可阻挡的力量，叶之Naria的致命精度，或Nalfar Cryptor的\"可爱\"骷髅！"
     hero_blurb_2: "高级战士可解锁惊人的武术技能，如Warcry、Stomp和Hurl Enemy。 或者玩游侠，使用隐形和弓箭、飞刀、陷阱！尝试用你的技能作为一个真正的编码教学，释放一个强大的原力、死灵或元素魔法阵列！"
@@ -1093,7 +1093,7 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     middle_school: "初中"
     college_plus: "大学以上"
     referrer: "您是怎么知道我们的？"
-#    referrer_help: "For example: from another teacher, a conference, your students, Code.org, etc."
+#    referrer_help: "比如: 从一个老师那里, 一场研讨会, 你的学生, Code.org, 等等"
     referrer_default: "选择一个"
     referrer_hoc: "Code.org/Hour of Code"
     referrer_teacher: "老师"
@@ -1435,8 +1435,8 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
 #    current_hero_female: "Current Hero:"
     change_hero: "更改英雄"
     web_dev_language_transition: "在本课中，所有的编程语言都是使用HTML和JavaScript编写。之前使用Python语言学习的班级会有额外的JavaScript编程介绍关卡来过渡。已经选择JavaScript编程语言的班级将会跳过这些介绍关卡。 "
-#    course_membership_required_to_play: "You'll need to join a course to play this level."
-#    license_required_to_play: "Ask your teacher to assign a license to you so you can continue to play CodeCombat!"
+    course_membership_required_to_play: "你将需要加入一项课程来游玩本关卡."
+    license_required_to_play: "让你的老师分配一个许可给你然后你就能继续玩CodeCombat了!"
     update_old_classroom: "新学年, 新关卡!"
     update_old_classroom_detail: "为确保您获得最新关卡，请您尽量在本学期创建新的班级，方法是单击"
     teacher_dashboard: "老师面板"
